@@ -1,0 +1,23 @@
+p{
+  color: yellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 1em;
+}
+.mosaico{
+  float: left;
+  margin: 1%;
+  width: 23%;
+}
+.fondo-rojo{
+  background-color: red;
+  height: 200px;
+}
+.fondo-negro{
+  background-color: black;
+  height: 200px;
+}
+.letra-blanca{
+  color: white;
+}
