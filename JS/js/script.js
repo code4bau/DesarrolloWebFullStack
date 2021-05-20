@@ -1,10 +1,7 @@
-/* let nombre = prompt("Ingresa su Nombre");
+let primera = 40 
 
-let apellido = prompt("Ingrese su Apellido");
+let segunda = 16
 
-alert(nombre  +  apellido )
- */
-let nombre = prompt("Ingresa su Nombre");
-let nacimiento = prompt ("Ingrese su año de nacimiento")
+let total = primera + segunda
 
-console.log(nombre  +   2021 - nacimiento)
+document.write("El resultado de las dos sumas es: " + total)
