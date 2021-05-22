@@ -4,4 +4,4 @@ let segunda = 16
 
 let total = primera + segunda
 
-document.write("El resultado de las dos sumas es: " + total)
+document.write( "<h1>" , "El resultado de la suma de las dos variables es: ","</h1>" + "<p>" , total ,"</p>")
