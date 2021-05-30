@@ -12,7 +12,8 @@ Table of contents
 8. Contact
 --------------------------------------------- */
 
-html {font-family: 'Open Sans', sans-serif;}
+html {font-family: 'Odibee Sans', cursive;
+font-family: 'Stint Ultra Condensed', cursive;}
 /* Typography */
 p, a {font-weight: 400;}
 .h2 {font-size: 40px;}
@@ -35,7 +36,7 @@ p, a {font-weight: 400;}
   width: 150px;
   display:block;
   position: absolute;
-  border-bottom:  5px solid #6266ea;
+  border-bottom:  5px solid orange;
   padding-top: .5em;
 }
 .typo-space-line-center::after {
@@ -46,7 +47,7 @@ p, a {font-weight: 400;}
 #main_nav .nav-item .nav-link:hover {color: #fff;}
 /* Home */
 #index_banner {
-  background-image: url('./../img/banner-bg-01.jpg');
+  background-image: url('/assets/img/banner.jpg');
   background-position: center center; background-size: cover;
   height: 100%;
   min-height: 60vh;
@@ -57,7 +58,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-control-prev i,
 #index_banner .carousel-control-next i {
-  color: #6266ea !important;
+  color: white !important;
   text-decoration: none;
   font-size: 4em;
 }
@@ -66,7 +67,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
-  background-color: #6266ea !important;
+  background-color: white !important;
   // las rayas de abajo del carrousel van de color azul
 }
 .service-wrapper .service-footer {
@@ -118,7 +119,7 @@ p, a {font-weight: 400;}
 }
 /* About */
 #work_banner {
-  background-image: url('./../img/banner-bg-02.jpg');
+  background-image: url('./../img/baner-02.jpg');
   background-position: center center; background-size: cover;
   height: 100%;
   width: 100%;
