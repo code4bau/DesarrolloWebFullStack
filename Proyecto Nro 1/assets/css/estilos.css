@@ -11,23 +11,24 @@ Table of contents
 7. Pricing
 8. Contact
 --------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2? family = Sigmar + One & display = swap');
 
-html {font-family: 'Odibee Sans', cursive;
-font-family: 'Stint Ultra Condensed', cursive;}
+html {font-family: 'Sigmar One', cursiva;
+}
 /* Typography */
 p, a {font-weight: 400;}
 .h2 {font-size: 40px;}
 .h3 {font-size: 28px;}
 .light-300 {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Sigmar One', cursiva !important;
   font-weight: 300;
 }
 .regular-400 {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Sigmar One', cursiva !important;
   font-weight: 400;
 }
 .semi-bold-600 {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Sigmar One', cursiva !important;
   font-weight: 600;
 }
 .typo-space-line::after,
@@ -36,7 +37,7 @@ p, a {font-weight: 400;}
   width: 150px;
   display:block;
   position: absolute;
-  border-bottom:  5px solid orange;
+  border-bottom:  5px solid #000;
   padding-top: .5em;
 }
 .typo-space-line-center::after {
@@ -44,7 +45,7 @@ p, a {font-weight: 400;}
   margin-left: -75px;
 }
 /* Main Nav */
-#main_nav .nav-item .nav-link:hover {color: #fff;}
+#main_nav .nav-item .nav-link:hover {color: #000;}
 /* Home */
 #index_banner {
   background-image: url('/assets/img/banner.jpg');
@@ -58,7 +59,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-control-prev i,
 #index_banner .carousel-control-next i {
-  color: white !important;
+  color: #fff !important;
   text-decoration: none;
   font-size: 4em;
 }
@@ -67,8 +68,8 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
-  background-color: white !important;
-  // las rayas de abajo del carrousel van de color azul
+  background-color: #fff !important;
+  /*   las rayas de abajo del carrousel van de color azul*/
 }
 .service-wrapper .service-footer {
   max-width: 720px;
@@ -114,7 +115,7 @@ p, a {font-weight: 400;}
   position: absolute;
 }
 .recent-work .recent-work-vertical:hover * {
-  color: white;
+  color: #fff;
   transition: .5s;
 }
 /* About */
@@ -132,12 +133,12 @@ p, a {font-weight: 400;}
   width: 8rem;
 }
 .partner-wap {
-  background-color: #7276ec;
+  background-color: #fff;
   transition: 1s;
   cursor: pointer;
 }
 .partner-wap:hover {
-  background-color: #b1b3f5;
+  background-color: #fff;
 }
 .why-us {
   background: rgb(239,239,253);

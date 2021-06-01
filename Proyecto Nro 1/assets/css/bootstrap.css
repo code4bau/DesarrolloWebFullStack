@@ -7,8 +7,8 @@
 /* line 1, src/assets/scss/_root.scss */
 :root {
   --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #4232c2;
+  --bs-indigo: #fff;
+  --bs-purple: #fff;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
@@ -19,13 +19,13 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #4232c2;
-  --bs-secondary: #6266ea;
+  --bs-primary: #fff;
+  --bs-secondary: #fff;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #f6f9fe;
+  --bs-light: #ff0000;
   --bs-dark: #212529;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -245,13 +245,13 @@ sup {
 
 /* line 261, src/assets/scss/_reboot.scss */
 a {
-  color: #4232c2;
+  color: #28a142;
   text-decoration: underline;
 }
 
 /* line 265, src/assets/scss/_reboot.scss */
 a:hover {
-  color: #35289b;
+  color: #000;
 }
 
 /* line 277, src/assets/scss/_reboot.scss */
@@ -4075,7 +4075,7 @@ fieldset:disabled .btn {
 /* line 85, src/assets/scss/mixins/_buttons.scss */
 .btn-outline-primary:hover {
   color: #f6f9fe;
-  background-color: #4232c2;
+  background-color: #c7bfb5;
   border-color: #4232c2;
 }
 
@@ -9500,12 +9500,12 @@ fieldset:disabled .btn {
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .text-primary {
-  color: #4232c2 !important;
+  color: #c7371a !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .text-secondary {
-  color: #6266ea !important;
+  color: #000 !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
@@ -9550,7 +9550,7 @@ fieldset:disabled .btn {
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .text-muted {
-  color: #6c757d !important;
+  color: #000 !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
@@ -9590,12 +9590,12 @@ fieldset:disabled .btn {
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .bg-primary {
-  background-color: #4232c2 !important;
+  background-color: #ff8800 !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .bg-secondary {
-  background-color: #6266ea !important;
+  background-color: #eb9e34 !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
