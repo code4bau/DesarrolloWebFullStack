@@ -48,7 +48,7 @@ p, a {font-weight: 400;}
 #main_nav .nav-item .nav-link:hover {color: #000;}
 /* Home */
 #index_banner {
-  background-image: url('/assets/img/banner.jpg');
+  background-image: url('/assets/img/banner-header-top.jpg');
   background-position: center center; background-size: cover;
   height: 100%;
   min-height: 60vh;
