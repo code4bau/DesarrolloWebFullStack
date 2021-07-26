@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+    flex-grow: 1;
+    overflow: scroll;
+}
+
+footer {
+    margin: 1em auto;
+}
